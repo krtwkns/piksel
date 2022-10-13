@@ -56,8 +56,13 @@ a.dropdown-item {
   width: 12rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .form-area .item .result button {
   width: 4rem;
+}
+
+.form-area .item .result h2 {
+  margin-bottom: 0;
 }
