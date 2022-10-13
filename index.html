@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/bulma.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Piksel</title>
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">Piksel</h1>
+        <div class="base">
+          <p>Base size of fonts is</p>
+          <input
+            type="number"
+            class="input base-input"
+            type="text"
+            value="16"
+          />
+        </div>
+        <div class="form">
+          <div class="card">
+            <div class="card-content">
+              <div class="content">
+                <div class="form-area">
+                  <div class="item">
+                    <div class="dropdown">
+                      <div class="dropdown-trigger">
+                        <button
+                          class="button"
+                          aria-haspopup="true"
+                          aria-controls="dropdown-menu"
+                        >
+                          <span class="dropdown-title">Convert from</span>
+                          <span class="icon is-small">
+                            <i class="fas fa-angle-down" aria-hidden="true"></i>
+                          </span>
+                        </button>
+                      </div>
+                      <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                        <div class="dropdown-content">
+                          <a class="dropdown-item">PX</a>
+                          <a class="dropdown-item">REM</a>
+                          <a class="dropdown-item">EM</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <input
+                      type="number"
+                      class="input"
+                      type="text"
+                      placeholder="0"
+                    />
+                  </div>
+                </div>
+                <div class="form-area">
+                  <div class="item">
+                    <div class="dropdown">
+                      <div class="dropdown-trigger">
+                        <button
+                          class="button"
+                          aria-haspopup="true"
+                          aria-controls="dropdown-menu"
+                        >
+                          <span class="dropdown-title">Convert to</span>
+                          <span class="icon is-small">
+                            <i class="fas fa-angle-down" aria-hidden="true"></i>
+                          </span>
+                        </button>
+                      </div>
+                      <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                        <div class="dropdown-content">
+                          <a class="dropdown-item">PX</a>
+                          <a class="dropdown-item">REM</a>
+                          <a class="dropdown-item">EM</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="result">
+                      <h1 class="result-number">0</h1>
+                      <button class="button is-link copy-btn">Copy</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="js/fontawesome.min.js"></script>
+  <script src="js/dropdown.js"></script>
+  <script src="js/index.js"></script>
+</html>
