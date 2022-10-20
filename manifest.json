@@ -1,9 +1,9 @@
 {
   "name": "Piksel",
   "version": "1.0.0",
-  "description": "extension for calculate from and to pixel",
+  "description": "Piksel is google chrome extension for calculate from piksel to other unit and vice versa",
   "manifest_version": 3,
-  "author": "Kretawiweka Nuraga Sani",
+  "author": "kretawiweka <ekanuraga@gmail.com>",
   "action": {
     "default_popup": "index.html",
     "default_title": "Piksel"
