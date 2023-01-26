@@ -86,3 +86,8 @@ a.dropdown-item {
   text-align: center;
   font-size: 0.5rem;
 }
+
+button {
+  background-color: #fafafa !important;
+  color: black !important;
+}
